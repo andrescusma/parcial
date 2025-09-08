@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Retro Gaming World</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">🎮 Retro Gaming World</h1>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="consolas.html">Consolas Clásicas</a></li>
+                    <li><a href="juegos.html">Juegos Legendarios</a></li>
+                    <li><a href="contacto.html" class="active">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h2>¿Eres un Fanático de los Retro Games?</h2>
+                <p>Únete a nuestra comunidad y comparte tus experiencias con los videojuegos clásicos</p>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <div class="container">
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <h3>📧 Email</h3>
+                            <p>info@retrogamingworld.com</p>
+                            <p class="contact-description">Envíanos tus preguntas, sugerencias o comparte tus experiencias retro.</p>
+                        </div>
+                        <div class="contact-item">
+                            <h3>🎮 Discord</h3>
+                            <p>RetroGamingWorld#1985</p>
+                            <p class="contact-description">Únete a nuestro servidor para charlar en tiempo real con otros fanáticos.</p>
+                        </div>
+                        <div class="contact-item">
+                            <h3>📱 Redes Sociales</h3>
+                            <p>@RetroGamingWorld</p>
+                            <p class="contact-description">Síguenos en Twitter, Instagram y Facebook para contenido diario.</p>
+                        </div>
+                        <div class="contact-item">
+                            <h3>📍 Ubicación</h3>
+                            <p>Ciudad de México, México</p>
+                            <p class="contact-description">Desde el corazón de América Latina, compartiendo la pasión retro.</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-section">
+                        <h3>Envíanos un Mensaje</h3>
+                        <form class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Nombre *</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="favorite-console">Tu Consola Favorita</label>
+                                <select id="favorite-console" name="favorite-console">
+                                    <option value="">Selecciona una consola...</option>
+                                    <option value="nes">Nintendo Entertainment System</option>
+                                    <option value="snes">Super Nintendo</option>
+                                    <option value="genesis">Sega Genesis</option>
+                                    <option value="atari">Atari 2600</option>
+                                    <option value="gameboy">Game Boy</option>
+                                    <option value="playstation">PlayStation Original</option>
+                                    <option value="other">Otra</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Mensaje *</label>
+                                <textarea id="message" name="message" rows="5" required placeholder="Cuéntanos sobre tu juego retro favorito, una anécdota gaming, o cualquier cosa relacionada con los videojuegos clásicos..."></textarea>
+                            </div>
+                            <button type="submit" class="submit-btn">Enviar Mensaje 🚀</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="community-section">
+                    <h3>Únete a Nuestra Comunidad Retro</h3>
+                    <div class="community-stats">
+                        <div class="stat">
+                            <span class="stat-number">2,847</span>
+                            <span class="stat-label">Miembros Activos</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">156</span>
+                            <span class="stat-label">Consolas Documentadas</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">3,421</span>
+                            <span class="stat-label">Juegos Catalogados</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">89</span>
+                            <span class="stat-label">Reviews Semanales</span>
+                        </div>
+                    </div>
+
+                    <div class="community-features">
+                        <h4>¿Qué puedes hacer en nuestra comunidad?</h4>
+                        <ul class="features-list">
+                            <li>🎯 Participar en torneos de juegos retro</li>
+                            <li>📝 Escribir reviews y artículos sobre tus juegos favoritos</li>
+                            <li>💬 Chatear con otros collectors y gamers veteranos</li>
+                            <li>🛒 Intercambiar cartuchos, consolas y accesorios</li>
+                            <li>📺 Ver streams de speedruns y gameplays nostálgicos</li>
+                            <li>🏆 Competir en leaderboards de puntuaciones clásicas</li>
+                            <li>📚 Acceder a guías exclusivas y contenido premium</li>
+                            <li>🎨 Compartir tu colección y setups retro</li>
+                        </ul>
+                    </div>
+
+                    <div class="newsletter-signup">
+                        <h4>📬 Suscríbete a Nuestro Newsletter</h4>
+                        <p>Recibe contenido semanal sobre videojuegos retro, ofertas exclusivas y noticias de la comunidad.</p>
+                        <form class="newsletter-form">
+                            <input type="email" placeholder="tu-email@ejemplo.com" required>
+                            <button type="submit">Suscribirse</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="faq-section">
+                    <h3>Preguntas Frecuentes</h3>
+                    <div class="faq-item">
+                        <h4>❓ ¿Es gratis unirse a la comunidad?</h4>
+                        <p>¡Completamente! Nuestra comunidad es gratuita. Ofrecemos contenido premium opcional para miembros que quieran apoyar el proyecto.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4>❓ ¿Aceptan consolas modernas o solo retro?</h4>
+                        <p>Nos enfocamos principalmente en consolas hasta la generación de PlayStation 2/GameCube/Xbox Original. Aunque ocasionalmente hablamos de juegos indies con estética retro.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4>❓ ¿Organizan eventos presenciales?</h4>
+                        <p>¡Sí! Organizamos meetups trimestrales en la Ciudad de México y participamos en convenciones de gaming por toda América Latina.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4>❓ ¿Puedo vender/comprar juegos en la comunidad?</h4>
+                        <p>Tenemos un marketplace interno para miembros verificados. Es un espacio seguro para intercambiar y comercializar coleccionables retro.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Retro Gaming World</h3>
+                    <p>Preservando la historia de los videojuegos para las futuras generaciones.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Enlaces</h3>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="consolas.html">Consolas</a></li>
+                        <li><a href="juegos.html">Juegos</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Recursos</h3>
+                    <ul>
+                        <li><a href="https://archive.org" target="_blank">Internet Archive</a></li>
+                        <li><a href="https://www.mobygames.com" target="_blank">MobyGames</a></li>
+                        <li><a href="https://www.retrogamer.net" target="_blank">Retro Gamer Magazine</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Retro Gaming World. Todos los derechos reservados. | Creado con ❤️ para los amantes de los videojuegos clásicos</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
